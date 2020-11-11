@@ -1,0 +1,88 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX role: <http://www.w3.org/ns/dx/prof/role/>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://linked.data.gov.au/def/su>
+    a prof:Profile ;
+    dcterms:title "Stratigraphic Units Profile"@en ;
+    dcterms:description "This is an extremely simple profile whos purpose is only to provide a Semantic Web view of the data contained within the [Australian Stratigraphic Units Database](http://pid.geoscience.gov.au/dataset/ga/21884). Data from that database is also available according to a number of other profiles, including:" ;
+    dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+    dcterms:created "2020-11-11"^^xsd:date ;
+    dcterms:modified "2020-11-11"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>  ;
+    prof:hasResource [
+        a prof:ResourceDescriptor ;
+        dcterms:title "Profile definition in RDF" ;
+        dcterms:description "The profile, in RDF, Turtle format" ;
+        prof:hasRole role:specification ;
+        dcterms:conformsTo <https://www.w3.org/TR/dx-prof/> ;
+        dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+        prof:hasArtifact <https://linked.data.gov.au/def/su.ttl> ;
+    ] ,
+    [
+        a prof:ResourceDescriptor ;
+        dcterms:title "Profile definition in HTML" ;
+        dcterms:description "The profile, in HTML format" ;
+        prof:hasRole role:guidance ;
+        dcterms:conformsTo <https://www.w3.org/TR/dx-prof/> ;
+        dcterms:format <https://w3id.org/mediatype/text/html> ;
+        prof:hasArtifact <https://linked.data.gov.au/def/su.html> ;
+    ] ,
+    <https://linked.data.gov.au/def/su/ont> ,
+    <https://linked.data.gov.au/def/su/ont.ttl> ,
+    <https://linked.data.gov.au/def/su/ont/su.png> ,
+    [
+        a prof:ResourceDescriptor ;
+        dcterms:title "Profile code repository" ;
+        dcterms:description "A GitHub-bsed Git repository containign all of this profile's information" ;
+        prof:hasRole role:guidance ;
+        prof:hasArtifact <https://github.com/surroundaustralia/su-ont> ;
+    ] ;
+.
+
+<https://orcid.org/0000-0002-3884-3420>
+    a sdo:Person ;
+    sdo:name "Nicholas J. Car" ;
+    sdo:email <nicholas.car@surroundaustralia.com> ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:GovernmentOrganization , sdo:Organization ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url <https://www.ga.gov.au> ;
+.
+
+<https://linked.data.gov.au/def/su/ont.ttl>
+    a prof:ResourceDescriptor ;
+    dcterms:title "Stratigraphic Units Ontology in RDF" ;
+    dcterms:description "The profile's new modelling" ;
+    prof:hasRole role:schema ;
+    dcterms:conformsTo <http://www.w3.org/TR/owl2-rdf-based-semantics/> ;
+    dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+    prof:hasArtifact <https://linked.data.gov.au/def/su/ont.ttl> ;
+.
+
+<https://linked.data.gov.au/def/su/ont>
+    a prof:ResourceDescriptor ;
+    dcterms:title "Stratigraphic Units Ontology in HTML" ;
+    dcterms:description "The profile's new modelling" ;
+    prof:hasRole role:schema ;
+    dcterms:conformsTo <http://www.w3.org/TR/owl2-rdf-based-semantics/> ;
+    dcterms:format <https://w3id.org/mediatype/text/html> ;
+    prof:hasArtifact <https://linked.data.gov.au/def/su/ont.html> ;
+.
+
+<https://linked.data.gov.au/def/su/ont/su.png>
+    a prof:ResourceDescriptor ;
+    dcterms:title "Stratigraphic Units Ontology overview diagram" ;
+    dcterms:description "An OWL diagram overviewing the ontology" ;
+    prof:hasRole role:schema ;
+    dcterms:format <https://w3id.org/mediatype/image/png> ;
+    prof:hasArtifact <https://linked.data.gov.au/def/su/ont/su.png> ;
+.
+
+

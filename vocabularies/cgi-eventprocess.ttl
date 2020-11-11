@@ -1,0 +1,249 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://resource.geosciml.org/classifierscheme/cgi/2016.01/eventprocess> a skos:ConceptScheme ;
+    skos:definition "This scheme specifies concepts used to describe the geological processes that are associated with geological events, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. By extension, it includes all concepts in this conceptScheme, as well as concepts in any previous versions of the scheme." ;
+    skos:inScheme <http://resource.geosciml.org/classifier/cgi/eventprocess/accretion>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/alteration>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/biological_precipitation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/biological_weathering>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/bolide_impact>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_precipitation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_weathering>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/cometary_impact>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/contact_metamorphism>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/continental_breakup>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/continental_collision>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/debris_flow_deposition>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/deep_water_oxygen_depletion>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/deformation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/deformation_twinning>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/deposition>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/diagenetic_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/diffusion_creep>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/dislocation_metamorphism>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution_creep>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/ductile_flow>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/effusive_eruption>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/erosion>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/eruption>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/excavation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/extinction>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/faulting>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/folding>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/fracturing>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/frost_shattering>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/geologic_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/geomagnetic_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/grading>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/haloclasty>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/hawaiian_eruption>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/human_activity>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/hydration>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/hydrolysis>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/ice_erosion>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/intrusion>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_crystallisation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/magnetic_field_reversal>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting_deposition>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/material_transport_and_deposition>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/mechanical_deposition>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/melting>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/metamorphic_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/meteorite_impact>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/microfracturing>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/obduction>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/organic_accumulation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/orogenic_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/oxidation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/partial_melting>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/physical_weathering>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/plinian_eruption>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/polar_wander>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/pressure_release_weathering>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/pyroclastic_eruption>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/rifting>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_change>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_fall>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_rise>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/sedimentary_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/shearing>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/speciation>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/spreading>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/strombolian_eruption>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/subduction>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/tectonic_process>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/thermal_shock_weathering>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/traction_saltation_or_suspension_deposition>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/transform_faulting>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/turbidity_current_deposition>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/vulcanian_eruption>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/water_erosion>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/weathering>,
+        <http://resource.geosciml.org/classifier/cgi/eventprocess/wind_erosion> ;
+    skos:prefLabel "Event Process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/accretion> skos:prefLabel "accretion" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/alteration> skos:prefLabel "alteration" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/biological_precipitation> skos:prefLabel "biological precipitation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/biological_weathering> skos:prefLabel "biological weathering" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/bolide_impact> skos:prefLabel "bolide impact" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_precipitation> skos:prefLabel "chemical precipitation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_weathering> skos:prefLabel "chemical weathering" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/cometary_impact> skos:prefLabel "cometary impact" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/contact_metamorphism> skos:prefLabel "contact metamorphism" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/continental_breakup> skos:prefLabel "continental breakup" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/continental_collision> skos:prefLabel "continental collision" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/debris_flow_deposition> skos:prefLabel "debris flow deposition" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/deep_water_oxygen_depletion> skos:prefLabel "deep water oxygen depletion" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/deformation> skos:prefLabel "deformation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/deformation_twinning> skos:prefLabel "deformation twinning" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/deposition> skos:prefLabel "deposition" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/diagenetic_process> skos:prefLabel "diagenetic process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/diffusion_creep> skos:prefLabel "diffusion creep" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/dislocation_metamorphism> skos:prefLabel "dislocation metamorphism" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution> skos:prefLabel "dissolution" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution_creep> skos:prefLabel "dissolution creep" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/ductile_flow> skos:prefLabel "ductile flow" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/effusive_eruption> skos:prefLabel "effusive eruption" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/erosion> skos:prefLabel "erosion" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/eruption> skos:prefLabel "eruption" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/excavation> skos:prefLabel "excavation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/extinction> skos:prefLabel "extinction" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/faulting> skos:prefLabel "faulting" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/folding> skos:prefLabel "folding" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/fracturing> skos:prefLabel "fracturing" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/frost_shattering> skos:prefLabel "frost shattering" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/geologic_process> skos:prefLabel "geologic process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/geomagnetic_process> skos:prefLabel "geomagnetic process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/grading> skos:prefLabel "grading" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/haloclasty> skos:prefLabel "haloclasty" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/hawaiian_eruption> skos:prefLabel "hawaiian eruption" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/human_activity> skos:prefLabel "human activity" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/hydration> skos:prefLabel "hydration" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/hydrolysis> skos:prefLabel "hydrolysis" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/ice_erosion> skos:prefLabel "ice erosion" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/intrusion> skos:prefLabel "intrusion" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_crystallisation> skos:prefLabel "magmatic crystallisation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_process> skos:prefLabel "magmatic process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/magnetic_field_reversal> skos:prefLabel "magnetic field reversal" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting> skos:prefLabel "mass wasting" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting_deposition> skos:prefLabel "mass wasting deposition" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/material_transport_and_deposition> skos:prefLabel "material transport and deposition" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/mechanical_deposition> skos:prefLabel "mechanical deposition" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/melting> skos:prefLabel "melting" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/metamorphic_process> skos:prefLabel "metamorphic process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/meteorite_impact> skos:prefLabel "meteorite impact" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/microfracturing> skos:prefLabel "microfracturing" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/obduction> skos:prefLabel "obduction" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/organic_accumulation> skos:prefLabel "organic accumulation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/orogenic_process> skos:prefLabel "orogenic process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/oxidation> skos:prefLabel "oxidation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/partial_melting> skos:prefLabel "partial melting" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/physical_weathering> skos:prefLabel "physical weathering" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/plinian_eruption> skos:prefLabel "plinian eruption" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/polar_wander> skos:prefLabel "polar wander" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/pressure_release_weathering> skos:prefLabel "pressure release weathering" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/pyroclastic_eruption> skos:prefLabel "pyroclastic eruption" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/rifting> skos:prefLabel "rifting" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_change> skos:prefLabel "sea level change" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_fall> skos:prefLabel "sea level fall" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_rise> skos:prefLabel "sea level rise" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/sedimentary_process> skos:prefLabel "sedimentary process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/shearing> skos:prefLabel "shearing" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/speciation> skos:prefLabel "speciation" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/spreading> skos:prefLabel "spreading" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/strombolian_eruption> skos:prefLabel "strombolian eruption" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/subduction> skos:prefLabel "subduction" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/tectonic_process> skos:prefLabel "tectonic process" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/thermal_shock_weathering> skos:prefLabel "thermal shock weathering" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/traction_saltation_or_suspension_deposition> skos:prefLabel "deposition from moving fluid" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/transform_faulting> skos:prefLabel "transform faulting" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/turbidity_current_deposition> skos:prefLabel "turbidity current deposition" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/vulcanian_eruption> skos:prefLabel "vulcanian eruption" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/water_erosion> skos:prefLabel "water erosion" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/weathering> skos:prefLabel "weathering" .
+
+<http://resource.geosciml.org/classifier/cgi/eventprocess/wind_erosion> skos:prefLabel "wind erosion" .
+
