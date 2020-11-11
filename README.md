@@ -3,7 +3,10 @@ This is a Semantic Web _profile_, that is a specification that is dependent on o
 
 This profile contains an ontology - the main part of it - which defines the new classes and properties that this profile introduces. It also contains several other parts. For this profile's full description, see:
 
-* **Profile definition** - <http://linked.data.gov.au/def/su
+* **Profile definition** - <http://linked.data.gov.au/def/su>
+
+![](su.png)  
+**Figure 1**: Ontology overview  
 
 
 ## Purpose
