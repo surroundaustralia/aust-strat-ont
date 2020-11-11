@@ -5,6 +5,9 @@ This profile contains an ontology - the main part of it - which defines the new 
 
 * **Profile definition** - <http://linked.data.gov.au/def/su
 
+![](su.png)  
+**Figure 1**: Ontology overview  
+
 
 ## Purpose
 This is an extremely simple profile whos purpose is only to provide a Semantic Web view of the data contained within the [Australian Stratigraphic Units Database](http://pid.geoscience.gov.au/dataset/ga/21884). Data from that database is also available according to a number of other profiles, including:
