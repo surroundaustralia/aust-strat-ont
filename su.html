@@ -223,6 +223,11 @@
     <dl>
         <dt>URI</dt>
         <dd><code>https://linked.data.gov.au/def/su/ont</code></dd>
+        <dt><a class="proplink" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/publisher">Publisher</a>(s)</dt>
+        <dd>
+            
+    <a href="https://linked.data.gov.au/org/ga">Geoscience Australia</a><br/>
+        </dd>
         <dt><a class="proplink" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/creator">Creator</a>(s)</dt>
         <dd>
             
@@ -252,6 +257,8 @@
         <dd>2020-11-11</dd>
         <dt><a class="proplink" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/modified">Modified</a></dt>
         <dd>2020-11-11</dd>
+        <dt>Version Information</dt>
+        <dd>Beta - first working version but incomplete.</dd>
         <dt>Ontology RDF</dt>
         <dd><a href="data_file.ttl">RDF (turtle)</a></dd>
         <dt>Code Repository</dt>
@@ -320,8 +327,8 @@
                 <td>
                     <a href="https://linked.data.gov.au/def/su/youngerNamedAge">su:youngerNamedAge</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
                     <a href="https://linked.data.gov.au/def/su/olderBound">su:olderBound</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
-                    <a href="https://linked.data.gov.au/def/su/olderNamedAge">su:olderNamedAge</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
                     <a href="https://linked.data.gov.au/def/su/youngerBound">su:youngerBound</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
+                    <a href="https://linked.data.gov.au/def/su/olderNamedAge">su:olderNamedAge</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
                 </td>
             </tr>
             <tr>
@@ -372,10 +379,11 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://linked.data.gov.au/def/su/geologicHistory">su:geologicHistory</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://linked.data.gov.au/def/su/descriptionPurpose">su:descriptionPurpose</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://linked.data.gov.au/def/su/observationMethod">su:observationMethod</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://linked.data.gov.au/def/su/geologicUnitType">su:geologicUnitType</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://linked.data.gov.au/def/su/geologicHistory">su:geologicHistory</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://linked.data.gov.au/def/su/stratigraphicRank">su:stratigraphicRank</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://linked.data.gov.au/def/su/descriptionPurpose">su:descriptionPurpose</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -388,6 +396,7 @@
         <li><a href="#eventProcess">eventProcess</a></li>
         <li><a href="#geologicHistory">geologicHistory</a></li>
         <li><a href="#geologicUnitType">geologicUnitType</a></li>
+        <li><a href="#observationMethod">observationMethod</a></li>
         <li><a href="#olderBound">olderBound</a></li>
         <li><a href="#olderNamedAge">olderNamedAge</a></li>
         <li><a href="#stratigraphicRank">stratigraphicRank</a></li>
@@ -498,6 +507,33 @@
                 <th>Super-properties</th>
                 <td>
                     <a href="http://purl.org/dc/terms/type">dcterms:type</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://linked.data.gov.au/def/su/StratigraphicUnit">su:StratigraphicUnit</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="observationMethod">
+        <h3>observationMethod<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://linked.data.gov.au/def/su/observationMethod</code></td>
+            </tr>
+            <tr>
+                <th>Source</th>
+                <td>
+                    <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
                 </td>
             </tr>
             <tr>
