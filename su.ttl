@@ -161,6 +161,16 @@ su:youngerNamedAge
     dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
 .
 
+su:youngestAge
+    a owl:ObjectProperty ;
+    rdfs:subPropertyOf time:intervalMetBy ;
+    skos:prefLabel "youngest age"@en ;
+    skos:definition "The youngest geological age (time:ProperInterval) during which any part of a Province was formed."@en ;
+    rdfs:domain su:Province ;
+    rdfs:range gts:Age ;
+    dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
+.
+
 su:olderNamedAge
     a owl:ObjectProperty ;
     rdfs:subPropertyOf time:intervalMetBy ;
@@ -170,8 +180,33 @@ su:olderNamedAge
     dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
 .
 
+su:oldestAge
+    a owl:ObjectProperty ;
+    rdfs:subPropertyOf time:intervalMetBy ;
+    skos:prefLabel "oldest age"@en ;
+    skos:definition "The oldest geological age (time:ProperInterval) during which any part of a Province was formed."@en ;
+    rdfs:domain su:Province ;
+    rdfs:range gts:Age ;
+    dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
+.
 
-# hasQuantity
+su:provinceRank
+    a owl:ObjectProperty ;
+    skos:prefLabel "rank"@en ;
+    skos:definition "The rank of a Province. Values originate in the Geoscience Australia Provinces Database."@en ;
+    rdfs:domain su:Province ;
+    rdfs:range skos:Concept ;  # from https://linked.data.gov.au/dev/fake-province-rank
+    dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
+.
 
-# value
-# unit
+su:provinceType
+    a owl:ObjectProperty ;
+    skos:prefLabel "type"@en ;
+    skos:definition "The type of a Province. Values originate in the Geoscience Australia Provinces Database."@en ;
+    rdfs:domain su:Province ;
+    rdfs:range skos:Concept ;  # from https://linked.data.gov.au/dev/fake-geolu-type
+    dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
+.
+
+
+# StratigraphicRank

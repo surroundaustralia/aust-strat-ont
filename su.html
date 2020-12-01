@@ -325,10 +325,10 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://linked.data.gov.au/def/su/youngerNamedAge">su:youngerNamedAge</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
-                    <a href="https://linked.data.gov.au/def/su/olderBound">su:olderBound</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
-                    <a href="https://linked.data.gov.au/def/su/youngerBound">su:youngerBound</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
                     <a href="https://linked.data.gov.au/def/su/olderNamedAge">su:olderNamedAge</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
+                    <a href="https://linked.data.gov.au/def/su/youngerBound">su:youngerBound</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
+                    <a href="https://linked.data.gov.au/def/su/olderBound">su:olderBound</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
+                    <a href="https://linked.data.gov.au/def/su/youngerNamedAge">su:youngerNamedAge</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
                 </td>
             </tr>
             <tr>
@@ -379,11 +379,11 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://linked.data.gov.au/def/su/observationMethod">su:observationMethod</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://linked.data.gov.au/def/su/geologicUnitType">su:geologicUnitType</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://linked.data.gov.au/def/su/geologicHistory">su:geologicHistory</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://linked.data.gov.au/def/su/stratigraphicRank">su:stratigraphicRank</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://linked.data.gov.au/def/su/descriptionPurpose">su:descriptionPurpose</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://linked.data.gov.au/def/su/observationMethod">su:observationMethod</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://linked.data.gov.au/def/su/stratigraphicRank">su:stratigraphicRank</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://linked.data.gov.au/def/su/geologicHistory">su:geologicHistory</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://linked.data.gov.au/def/su/geologicUnitType">su:geologicUnitType</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -399,9 +399,13 @@
         <li><a href="#observationMethod">observationMethod</a></li>
         <li><a href="#olderBound">olderBound</a></li>
         <li><a href="#olderNamedAge">olderNamedAge</a></li>
+        <li><a href="#oldestAge">oldestAge</a></li>
+        <li><a href="#provinceRank">provinceRank</a></li>
+        <li><a href="#provinceType">provinceType</a></li>
         <li><a href="#stratigraphicRank">stratigraphicRank</a></li>
         <li><a href="#youngerBound">youngerBound</a></li>
         <li><a href="#youngerNamedAge">youngerNamedAge</a></li>
+        <li><a href="#youngestAge">youngestAge</a></li>
     </ul>
     <div class="entity property" id="descriptionPurpose">
         <h3>descriptionPurpose<sup title="object property" class="sup-op">op</sup></h3>
@@ -410,6 +414,12 @@
                 <th>URI</th>
                 <td><code>https://linked.data.gov.au/def/su/descriptionPurpose</code></td>
             </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Codes used to specify the intended scope of a description of a Geologic Feature (Stratigraphic Unit), as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group.</p>
+                </td>
+            </tr>             
             <tr>
                 <th>Source</th>
                 <td>
@@ -438,6 +448,12 @@
                 <td><code>https://linked.data.gov.au/def/su/eventProcess</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>Geological processes that are associated with geological events, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group.</p>
+                </td>
+            </tr>  
+            <tr>
                 <th>Source</th>
                 <td>
                     <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
@@ -464,6 +480,12 @@
                 <th>URI</th>
                 <td><code>https://linked.data.gov.au/def/su/geologicHistory</code></td>
             </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A property that relates a Geologic Feature (Stratigraphic Unit) to one or more Geologic Events that describe is age or geologic history.</p>
+                </td>
+            </tr> 
             <tr>
                 <th>Source</th>
                 <td>
@@ -498,6 +520,12 @@
                 <td><code>https://linked.data.gov.au/def/su/geologicUnitType</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>The type of a Geologic Unit (Stratigraphic Unit), as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group within the Geologic Unit Type vocabulary.</p>
+                </td>
+            </tr> 
+            <tr>
                 <th>Source</th>
                 <td>
                     <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
@@ -531,6 +559,18 @@
                 <td><code>https://linked.data.gov.au/def/su/observationMethod</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>The approach taken to acquire the collection of attributes describing an individual feature instance (Stratigraphic Unit), as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. This is a convienence property that provides a quick approach to shortcut use of more comprehensive observation and measurement constructs when data are reported using a feature view (as opposed to observation view).</p>
+                </td>
+            </tr> 
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The approach taken to acquire the collection of attributes describing an individual feature instance (Stratigraphic Unit), as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. This is a convienence property that provides a quick approach to shortcut use of more comprehensive observation and measurement constructs when data are reported using a feature view (as opposed to observation view).</p>
+                </td>
+            </tr> 
+            <tr>
                 <th>Source</th>
                 <td>
                     <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
@@ -557,6 +597,18 @@
                 <th>URI</th>
                 <td><code>https://linked.data.gov.au/def/su/olderBound</code></td>
             </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The older bounding time instant of an age range.</p>
+                </td>
+            </tr> 
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The older bounding time instant of an age range.</p>
+                </td>
+            </tr> 
             <tr>
                 <th>Source</th>
                 <td>
@@ -585,6 +637,12 @@
                 <td><code>https://linked.data.gov.au/def/su/olderNamedAge</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>The next older geochronologic age.</p>
+                </td>
+            </tr> 
+            <tr>
                 <th>Source</th>
                 <td>
                     <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
@@ -604,6 +662,111 @@
             </tr>
         </table>
     </div>
+    <div class="entity property" id="oldestAge">
+        <h3>oldestAge<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://linked.data.gov.au/def/su/oldestAge</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The oldest geological age (time:ProperInterval) during which any part of a Province was formed.</p>
+                </td>
+            </tr> 
+            <tr>
+                <th>Source</th>
+                <td>
+                    <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2006/time#intervalMetBy">time:intervalMetBy</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://linked.data.gov.au/def/su/Province">su:Province</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://resource.geosciml.org/ontology/timescale/gts#Age">gts:Age</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="provinceRank">
+        <h3>provinceRank<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://linked.data.gov.au/def/su/provinceRank</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The rank of a Province. Values originate in the Geoscience Australia Provinces Database.</p>
+                </td>
+            </tr> 
+            <tr>
+                <th>Source</th>
+                <td>
+                    <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://linked.data.gov.au/def/su/Province">su:Province</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="provinceType">
+        <h3>provinceType<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://linked.data.gov.au/def/su/provinceType</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The type of a Province. Values originate in the Geoscience Australia Provinces Database.</p>
+                </td>
+            </tr> 
+            <tr>
+                <th>Source</th>
+                <td>
+                    <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://linked.data.gov.au/def/su/Province">su:Province</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity property" id="stratigraphicRank">
         <h3>stratigraphicRank<sup title="object property" class="sup-op">op</sup></h3>
         <table>
@@ -611,6 +774,12 @@
                 <th>URI</th>
                 <td><code>https://linked.data.gov.au/def/su/stratigraphicRank</code></td>
             </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Formally identified Stratigraphic Units are structured in a hierarchy of lithostratigraphic ranks with higher rank units generally comprising two or more units of lower rank. Going from smaller to larger in rank, the main lithostratigraphic ranks are Bed, Member, Formation, Group and Supergroup with specific values managed in geoscience vocabularies.</p>
+                </td>
+            </tr> 
             <tr>
                 <th>Source</th>
                 <td>
@@ -645,6 +814,12 @@
                 <td><code>https://linked.data.gov.au/def/su/youngerBound</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>The younger bounding time instant of an age range.</p>
+                </td>
+            </tr> 
+            <tr>
                 <th>Source</th>
                 <td>
                     <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
@@ -672,6 +847,12 @@
                 <td><code>https://linked.data.gov.au/def/su/youngerNamedAge</code></td>
             </tr>
             <tr>
+                <th>Description</th>
+                <td>
+                    <p>The next younder geochronologic age.</p>
+                </td>
+            </tr> 
+            <tr>
                 <th>Source</th>
                 <td>
                     <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
@@ -681,6 +862,45 @@
                 <th>Super-properties</th>
                 <td>
                     <a href="http://www.w3.org/2006/time#intervalMeets">time:intervalMeets</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://resource.geosciml.org/ontology/timescale/gts#Age">gts:Age</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="youngestAge">
+        <h3>youngestAge<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://linked.data.gov.au/def/su/youngestAge</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>The youngest geological age (time:ProperInterval) during which any part of a Province was formed.</p>
+                </td>
+            </tr> 
+            <tr>
+                <th>Source</th>
+                <td>
+                    <a href="http://www.opengis.net/doc/geosciml/4.1">http://www.opengis.net/doc/geosciml/4.1</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2006/time#intervalMetBy">time:intervalMetBy</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://linked.data.gov.au/def/su/Province">su:Province</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
