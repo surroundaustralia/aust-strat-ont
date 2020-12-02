@@ -56,6 +56,15 @@ su:stratigraphicRank
     dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
 .
 
+su:StratigraphicRank
+    a owl:Class ;
+    rdfs:subClassOf skos:Concept ;
+    skos:prefLabel "Stratigraphic Rank"@en ;
+    skos:definition "The rank - types scale value - of a Stratigraphic Unit."@en ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/su/ont> ; 
+    skos:scopeNote "This class should have a specific Stratigraphic Rank value taken from a vocabulary and indicated by the use of a property of this class such as _has value_ or similar."@en ;
+.
+
 su:geologicUnitType
     a owl:ObjectProperty ;
     rdfs:subPropertyOf dcterms:type ;
@@ -64,6 +73,15 @@ su:geologicUnitType
     rdfs:domain su:StratigraphicUnit ;
     rdfs:range skos:Concept ;  # from http://resource.geosciml.org/classifierscheme/cgi/2016.01/geologicunittype
     dcterms:source <http://www.opengis.net/doc/geosciml/4.1> ;
+.
+
+su:GeologicUnitType
+    a owl:Class ;
+    rdfs:subClassOf geo:Feature ;
+    skos:prefLabel "Geologic Unit Type"@en ;
+    skos:definition "The type of a Geologic Unit (Stratigraphic Unit), as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group within the Geologic Unit Type vocabulary."@en ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/su/ont> ;
+    skos:scopeNote "This class should have a specific Geologic Unit Type value taken from a vocabulary and indicated by the use of a property of this class such as _has value_ or similar."@en ;
 .
 
 su:descriptionPurpose
